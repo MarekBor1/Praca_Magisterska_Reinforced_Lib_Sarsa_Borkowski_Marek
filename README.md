@@ -1,0 +1,2 @@
+# Praca_Magisterska_Reinforced_Lib_Sarsa_Borkowski_Marek
+Repozytorium zawiera autorską implementację agenta SARSA przeznaczoną do wykorzystania w ramach biblioteki reinforced-lib.
