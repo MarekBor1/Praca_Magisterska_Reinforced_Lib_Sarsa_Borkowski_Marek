@@ -83,9 +83,11 @@ Cytowanie
 
 Jeśli użyjesz tej implementacji w pracy naukowej, rozważ dodanie odwołania do repozytorium
 oraz dokumentacji reinforced-lib.
+```
 @misc{borkowski_sarsa_ns3,
   author       = {Borkowski, Marek},
   title        = {Implementacja agenta SARSA dla reinforced-lib i ns-3},
   year         = {2025},
   howpublished = {\url{https://reinforced-lib.readthedocs.io/en/latest/index.html}}
 }
+```
