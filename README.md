@@ -9,11 +9,11 @@ podmiany integracji w przykładowym projekcie `reinforced-lib`.
 
 ## Zawartość repozytorium
 
-.
+```
 ├─ sarsa.py # Implementacja agenta SARSA (on-policy, Q-tablica)
 ├─ main.py # Skrypt uruchamiający symulacje/eksperymenty
 └─ ext.py # Plik do podmiany w reinforced-lib/examples/ns-3-ra
-
+```
 
 ---
 
