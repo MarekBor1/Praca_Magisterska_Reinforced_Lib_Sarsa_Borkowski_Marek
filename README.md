@@ -50,41 +50,7 @@ python $REINFORCED_LIB/examples/ns-3-ccod/main.py \
   --ns3Path "$YOUR_NS3_PATH"
 ```
 
-
-Parametry uruchomienia (przykłady)
-
-Najczęściej używane opcje (mogą różnić się zależnie od wersji przykładów w reinforced-lib):
-
---agent – nazwa agenta (SARSA)
-
---ns3Path – ścieżka do zbudowanego ns-3
-
---alpha – współczynnik uczenia (np. 0.1)
-
---gamma – współczynnik dyskontowania (np. 0.25)
-
---epsilon – eksploracja ε-greedy (np. 0.05)
-
---episodes, --steps – rozmiar eksperymentu
-
---outDir – katalog na logi/wyniki
-
-Przykład:
-python main.py \
-  --agent SARSA \
-  --ns3Path "/opt/ns-3-dev" \
-  --alpha 0.1 --gamma 0.25 --epsilon 0.05 \
-  --episodes 50 --steps 2000 \
-  --outDir "./results/sarsa_1"
-Wyniki i logi
-
-Metryki (np. przepustowość, nagrody, (stan, akcja)) zapisywane są do plików w katalogu --outDir.
-
-Dodatkowe logowanie (np. snapshot Q-tablicy co N kroków) możesz włączyć bezpośrednio w sarsa.py.
-
-Wykresy wygodnie wygenerujesz w Pythonie/Matplotlib lub narzędziami z przykładów reinforced-lib.
-
-Jak działa ta implementacja?
+Jak działa implementacja?
 
 On-policy SARSA: aktualizacja Q wykorzystuje faktycznie wybraną akcję w kolejnym stanie (a′),
 zgodnie z polityką ε-greedy (eksploracja/eksploatacja).
@@ -97,8 +63,6 @@ z ns-3 jest prosta i przewidywalna.
 
 Najczęstsze problemy (troubleshooting)
 
-ns-3 nie znaleziony / błędna ścieżka
-Upewnij się, że --ns3Path wskazuje na zbudowane ns-3 (np. ./waf build).
 
 Konflikt wersji pakietów/Pythona
 Użyj czystego venv/conda i zainstaluj reinforced-lib od nowa wg dokumentacji.
