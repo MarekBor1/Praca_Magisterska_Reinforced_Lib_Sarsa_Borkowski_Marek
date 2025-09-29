@@ -81,7 +81,7 @@ Dodaj wybraną licencję (np. MIT/Apache-2.0).
 
 Cytowanie
 
-Jeśli użyjesz tej implementacji w pracy naukowej, rozważ dodanie odwołania do repozytorium
+Jeśli użyjesz tej implementacji w pracy naukowej, dodaj odwołania do repozytorium
 oraz dokumentacji reinforced-lib.
 ```
 @misc{borkowski_sarsa_ns3,
